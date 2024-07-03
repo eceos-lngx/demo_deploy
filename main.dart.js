@@ -42159,7 +42159,7 @@ oV(){var s=0,r=A.t(t.Q0),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$oV=A.o(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.v(A.blk(A.er("http://worldtimeapi.org/api/timezone/Etc/UTC",0,null),null),$async$oV)
+return A.v(A.blk(A.er("https://worldtimeapi.org/api/timezone/Etc/UTC",0,null),null),$async$oV)
 case 7:n=b
 if(n.b===200){i=n
 m=B.a0.uq(0,A.hC(J.ag(A.hB(i.e).c.a,"charset")).cn(0,i.w),null)
