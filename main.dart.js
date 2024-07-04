@@ -40126,7 +40126,7 @@ oh(){var s=0,r=A.t(t.Q0),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$oh=A.o(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.n(A.bhX(A.ej("http://worldtimeapi.org/api/timezone/Etc/UTC",0,null),null),$async$oh)
+return A.n(A.bhX(A.ej("https://worldtimeapi.org/api/timezone/Etc/UTC",0,null),null),$async$oh)
 case 7:n=b
 if(n.b===200){i=n
 m=B.a_.tv(0,A.ho(J.af(A.hl(i.e).c.a,"charset")).c3(0,i.w),null)
