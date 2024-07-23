@@ -118305,7 +118305,7 @@ break
 case 1:return A.r(q,r)}})
 return A.t($async$qr,r)},
 I(a){var s,r,q,p,o,n,m=this,l=null,k="Reset",j=A.nW("assets/images/login_img.png",B.h7,1024,450)
-if(m.e.dx.gl(0))s=B.Ol
+if(!m.e.dx.gl(0))s=B.Ol
 else{s=A.O("Tender",l,l,l,l,A.a7().$2$fontSize$fontWeight($.aj().b7(28),B.ae),l,l,l)
 r=t.p
 q=A.b7(A.b([A.b4(A.b([new A.c7(new A.ajp(m,a),l),new A.c7(new A.ajq(m,a),l),new A.c7(new A.ajr(m,a),l)],r),B.p,B.j,B.m),B.m9,A.aI(l,l,B.k,B.aw,l,l,l,300,l,l,l,l,l,2),B.m9,A.b4(A.b([new A.jt("Reset Tender Buyer Data","",new A.ajs(m,a),k,450*$.aj().gd2(),l),new A.jt("Reset User Demand Data For December","",new A.ajt(m,a),k,450*$.aj().gd2(),l),new A.jt("Reset Seller Tender For December","",new A.aju(m,a),k,450*$.aj().gd2(),l)],r),B.p,B.bx,B.m)],r),B.p,B.j,B.m,l)
