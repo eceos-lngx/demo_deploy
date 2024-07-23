@@ -116992,7 +116992,7 @@ for(p=a3.length,h=0,m=0;m<a3.length;a3.length===p||(0,A.G)(a3),++m){h+=A.c4(a3[m
 s.push(h)}p=this.a
 n=p.c
 k=n==="buyer"
-g=k?"MYR":"USD"
+g=k||n==="slotManager"?"MYR":"USD"
 $.at.p1$.push(new A.an8(a1,a2))
 j=A.bl(15)
 i=A.cW(B.aF,1)
@@ -117029,7 +117029,7 @@ $S:5}
 A.an9.prototype={
 $1(a){var s,r=this,q=null,p=a.a,o=a.b,n=B.b.t(r.b,o)?B.Sh:q,m=A.b([new A.aX(B.aH,A.O(B.f.k(p+1),q,q,q,q,A.a7().$2$fontSize$fontWeight(14,B.hL),q,q,q),q),new A.aX(B.aH,A.O(o.gTk(),q,q,q,q,A.a7().$2$fontSize$fontWeight(14,B.q),q,q,q),q),new A.aX(B.aH,A.O(J.br(o.grr()),q,q,q,q,A.a7().$2$fontSize$fontWeight(14,B.q),q,q,q),q)],t.p),l=r.a.c
 if(l==="seller"){s=r.c
-m.push(new A.aX(B.aH,A.O(B.e.an(J.bbR(o.gkA(),s.fx.gl(0))/s.p4.gl(0),2),q,q,q,q,A.a7().$2$fontSize$fontWeight(14,B.q),q,q,q),q))}l=l==="buyer"?J.br(o.gkA()):B.e.an(J.bpg(o.gkA(),r.c.p4.gl(0)),2)
+m.push(new A.aX(B.aH,A.O(B.e.an(J.bbR(o.gkA(),s.fx.gl(0))/s.p4.gl(0),2),q,q,q,q,A.a7().$2$fontSize$fontWeight(14,B.q),q,q,q),q))}l=l==="buyer"||l==="slotManager"?J.br(o.gkA()):B.e.an(J.bpg(o.gkA(),r.c.p4.gl(0)),2)
 m.push(new A.aX(B.aH,A.O(l,q,q,q,q,A.a7().$2$fontSize$fontWeight(14,B.q),q,q,q),q))
 m.push(new A.aX(B.aH,A.O(B.f.k(r.d[p]),q,q,q,q,A.a7().$2$fontSize$fontWeight(14,B.q),q,q,q),q))
 return new A.fA(q,new A.aW(n,q,q,q,q,q,q,B.v),m)},
