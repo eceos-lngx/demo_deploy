@@ -34740,7 +34740,7 @@ j.aO()
 j.arH(null,null,o)
 p.cx$!==$&&A.aJ()
 p.cx$=j
-k=j}p.ajv(new A.a6u(m,new A.N6(new A.Jf("/navigation",new A.b6f(),"AGH",!1,B.Tj,q,null),B.aDs,null),l,k,null))
+k=j}p.ajv(new A.a6u(m,new A.N6(new A.Jf("/",new A.b6f(),"AGH",!1,B.Tj,q,null),B.aDs,null),l,k,null))
 p.MH()
 return A.r(null,r)}})
 return A.t($async$b6b,r)},
@@ -118100,7 +118100,7 @@ A.amH.prototype={
 $1(a){var s=$.a2()
 A.bc(s,"Success","Successfully logged in",B.bW,B.h)
 this.a.cx.sl(0,!1)
-A.bg_(s,"/navigation",t.z)},
+A.bg_(s,"/",t.z)},
 $S:175}
 A.Zj.prototype={
 aYW(a,b){var s,r=$.cw().b
@@ -119619,7 +119619,7 @@ return},
 $S:6}
 A.aHe.prototype={
 $1(a){$.bN().l_("User created Succesfully")
-A.BD($.a2(),"/",t.z)},
+A.BD($.a2(),"/old-nav",t.z)},
 $S:175}
 A.aHf.prototype={
 $1(a){$.bN().nd(0,"Unable to sign in after user creation: "+a.a)
@@ -119773,7 +119773,7 @@ A.aHp.prototype={
 $0(){return B.iw},
 $S:178}
 A.aHx.prototype={
-$0(){return A.BD($.a2(),"/navigation",t.z)},
+$0(){return A.BD($.a2(),"/",t.z)},
 $S:0}
 A.Dh.prototype={
 I(a){var s=this,r=null,q=1073741823,p=A.a6(r,r,B.k,B.W,r,r,r,r,r,r,r,r,r,r),o=16*$.H().gcJ(),n=16*$.H().gjY(),m=A.MK(a).N3("TABLET")?B.dO:B.jS,l=t.p,k=t.rH
@@ -148547,7 +148547,7 @@ m.aMX("X-Appwrite-Project",n)
 return m})
 s($,"bJl","bcI",()=>new A.aqZ($.bny()))
 s($,"bJj","bnx",()=>{var q=null,p=t.z,o=t.i8
-return A.a([A.mR(q,q,new A.VI(),B.dg,B.dh,B.a5,q,!1,q,!0,q,"/auth",!0,new A.akz(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a25(),B.dg,B.dh,B.a5,q,!1,q,!0,q,"/register",!0,new A.akA(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.ZB(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/home",!0,new A.akB(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a4E(),B.dg,B.dh,B.a5,q,!1,q,!0,q,"/splash-screen",!0,new A.akC(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.Ve(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/console",!0,new A.akD(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a0p(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/",!0,new A.akE(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a5s(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/tender-dashboard",!0,new A.akF(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a_B(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/logout",!0,new A.akG(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.Vy(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/auction-dashboard",!0,new A.akH(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a09(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/mspa",!0,new A.akI(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a0l(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/navigation",!0,new A.akJ(),q,q,q,!0,!0,q,q,q,q,p)],t.RT)})
+return A.a([A.mR(q,q,new A.VI(),B.dg,B.dh,B.a5,q,!1,q,!0,q,"/auth",!0,new A.akz(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a25(),B.dg,B.dh,B.a5,q,!1,q,!0,q,"/register",!0,new A.akA(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.ZB(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/home",!0,new A.akB(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a4E(),B.dg,B.dh,B.a5,q,!1,q,!0,q,"/splash-screen",!0,new A.akC(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.Ve(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/console",!0,new A.akD(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a0p(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/old-nav",!0,new A.akE(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a5s(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/tender-dashboard",!0,new A.akF(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a_B(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/logout",!0,new A.akG(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.Vy(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/auction-dashboard",!0,new A.akH(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a09(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/mspa",!0,new A.akI(),q,q,q,!0,!0,q,q,q,q,p),A.mR(q,q,new A.a0l(),B.dg,B.dh,B.a5,q,!1,q,!0,A.a([A.wM()],o),"/",!0,new A.akJ(),q,q,q,!0,!0,q,q,q,q,p)],t.RT)})
 s($,"bKX","bof",()=>A.bJ("[^0-9.]",!0,!1))
 s($,"bO7","bqb",()=>A.bab(null))
 s($,"bLx","bcX",()=>new A.X())
